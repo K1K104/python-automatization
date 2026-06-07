@@ -1,0 +1,14 @@
+[tool.black]
+line-length = 88
+target-version = ['py312']
+include = '\.pyi?$'
+
+[tool.pylint.messages_control]
+disable = [
+    "C0114", # brak docstringu modułu
+    "C0115", # brak docstringu klasy
+    "C0116", # brak docstringu funkcji
+]
+
+[tool.pylint.format]
+max-line-length = 88

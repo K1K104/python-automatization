@@ -1,3 +1,3 @@
 #!/bin/bash
-source venv/Scripts/activate || source venv/Scripts/activate
+source venv/bin/activate
 black --check app/ tests/
